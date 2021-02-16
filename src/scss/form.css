@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100");
+
+body {
+  display: flex;
+	justify-content: center;
+	text-align: center;
+	height: 100vh;
+	background: #fcf3ec;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* form-handlesubmit css */
+
+h2 {
+  width:100vw;
+  margin-top: 0;
+  margin-bottom: 3.236rem;
+  text-align: center;
+  font-family:roboto;
+  font-size: 1.618rem;
+  background-color:black;
+  color:white;
+ } 
+
+
+form p{
+  font-family:roboto;
+  color: red;
+  font-size: 16px;
+  font-weight: 400;
+  
+}
+
+.container{
+  display:inline-block;
+   justify-content:center;
+   align-items:center;
+   height:100vh;
+}
+
+.input-button{
+  background-color:black;
+  color:white;
+  
+ 
+}
+
+label, input {
+  font-family:roboto;
+  /* font-weight:500; */
+  font-size: medium;
+  
+  
+}
+
+
+
+/* LoggedIn user css */
+
+ .flex-outer li,
+ .flex-inner {
+   display:flex;
+   flex-wrap:wrap;
+   align-items:center;
+ }
+
+ .flex-outer > li > label ,
+ .flex-outer li p{
+  flex: 1 0 120px;
+  max-width:100px;
+  }
+
+  .flex-outer li p{
+    font-family:roboto;
+    color:black;
+  }
+
+
+ .flex-outer > li > label + *,
+ .flex-inner {
+   flex: 1 100px;
+ }
+
+
+ .flex-outer li button {
+   margin-left: auto;
+   padding: 8px 16px;
+   border:none;
+   background:#333;
+   color:#f2f2f2;
+   text-transform:uppercase;
+   letter-spacing:.09em;
+   border-radius:2px;
+ }
+
+ flex-inner li{
+   width:100px;
+ }
+
+ .flex-inner{
+   justify-content:space-between;
+   
+ }
+
+ 
